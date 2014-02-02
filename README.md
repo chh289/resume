@@ -16,6 +16,6 @@ following command:
 
 License
 -------
-See [LICENSE](https://github.com/coreyjonoliver/resume/blob/master/LICENSE)
+See [LICENSE](https://github.com/chh289/resume/blob/master/LICENSE)
 
 [1]: http://www.jblevins.org/
