@@ -34,7 +34,7 @@
 % \usepackage[urw-garamond]{mathdesign}
 
 % Set your name here
-\def\name{Hannah C. Oliver}
+\def\name{Hannah C. Oliver, DO}
 
 % The following metadata will show up in the PDF properties
 \hypersetup{
@@ -61,7 +61,8 @@
 % Custom section fonts
 \usepackage{sectsty}
 \sectionfont{\rmfamily\bfseries\large}
-\subsectionfont{\rmfamily\mdseries\itshape\normalsize}
+
+\subsectionfont{\rmfamily\mdseries\itshape\normalsize} % chktex 6
 
 % Other possible font commands include:
 % \mdseries for default,
@@ -86,9 +87,11 @@
   \end{list}
 }
 
+
+
 % Make lists with bullets
 \newenvironment{bitemize}{
-  \begin{list}{$\bullet$}{
+  \begin{list}{\(\bullet \)}{
       \setlength{\leftmargin}{1.5em}
       \setlength{\itemsep}{0.25em}
       \setlength{\parskip}{0pt}
@@ -110,103 +113,29 @@
 
 \bigskip
 
-\begin{minipage}[t]{0.5\textwidth}
-  2742 Fleur Drive  Apt. 313 \\
-  Des Moines, IA 50321
+\noindent
+\begin{minipage}[t]{0.49\textwidth}
+  6802 E Odessa Ct\\
+  Bel Aire, KS 67226
 \end{minipage}
 \begin{minipage}[t]{0.5\textwidth}
-  \hfill Phone: (515) 210-9494\\
+  \hfill Phone: (515) 210-9494\\ % chktex 8
   \hspace*{0pt} \hfill Email: \href{mailto:hannah.christine.oliver@gmail.com}{hannah.christine.oliver@gmail.com}
 \end{minipage}
 
 \section*{Education}
 
 \begin{itemize}
-\item \textbf{Doctor of Osteopathic Medicine} \yearrange{Expected May 2015} \par
+\item \textbf{Psychiatry Residency} \yearrange{2015--Present}
+  University of Kansas-Wichita
+\item \textbf{Doctor of Osteopathic Medicine} \yearrange{2011--2015} \par
   Des Moines University 
-\item \textbf{Bachelor of Arts in Biology}, \textit{Cum Laude} \yearrange{May 2011} \par
+\item \textbf{Bachelor of Arts in Biology}, \textit{Cum Laude} \yearrange{2007--2011} \par
   Central College, Pella, IA
-\begin{itemize} 
-  \item {Study Abroad:} London, England, Spring 2010
+  \begin{itemize} 
+    \item {Study Abroad:} London, England, Spring 2010
+    \end{itemize}
   \end{itemize}
-\end{itemize}
-
-\section*{Honors and Awards}
-\begin{itemize}
-\item \textbf{Edward and Amanda Miller Scholarship} \yearrange{Spring 2012}
-  \textit{Des Moines University}
-  \begin{bitemize}
-    \item Awarded to promising medical students with an interest in pediatrics.
-  \end{bitemize}
-\item \textbf{Dr. Herman Vander Meulen Award} \yearrange{Spring 2011}
-  \textit{Central College}
-  \begin{bitemize}
-    \item Awarded for achievement to a student accepted to medical school.
-  \end{bitemize}
-	
-\item \textbf{Presidential Scholarship} \yearrange{Fall 2007 -- Spring 2011}
-  \textit{Central College}
-  \begin{bitemize}
-    \item Awarded to incoming freshman for high school achievement.
-  \end{bitemize}
-\end{itemize}
-
-\section*{Service}
-\subsection*{Pediatrics Club, Des Moines University}
-\begin{itemize}
-\item \textbf{President} \yearrange{Fall 2012 -- Spring 2013}
-  \begin{bitemize}
-  \item Led club meetings and organized volunteering
-  \item Coordinated speakers including topics such as developmental
-    pediatrics, genetics, having a child with special needs, how
-    maternal stress during pregnancy affects infant biology,
-    immunization myths.
-  \item Organized a charity event for a emergency youth shelter
-    collecting winter items and toys.
-  \end{bitemize}
-\item \textbf{First Year Liaison} \yearrange{Fall 2011 -- Spring 2012}
-  \begin{bitemize}
-  \item Created a monthly motor skills class to help children ages 0-2 years old with Down's Syndrome.
-  \item Assisted senior club members with their responsibilities such as organizing fundraising and volunteer events.
-  \end{bitemize}
-\end{itemize}
-
-\subsection*{Admission Office, Des Moines University}
-\begin{itemize}
-\item \textbf{Prospective Student Interviewer} \yearrange{Fall 2012 -- Spring 2013}
-  \begin{bitemize}
-  \item Interviewed prospective students applying to the osteopathic
-    medicine program.
-   \item Helped Admissions staff select medical school applicants based on fit with current student population and potential for success.
-  \end{bitemize}
-\end{itemize}
-
-\subsection*{Psychiatry Club, Des Moines University}
-\begin{itemize}
-\item \textbf{Member} \yearrange{Fall 2012 -- Spring 2013}
-  \begin{bitemize}
-  \item Gave a presentation to fellow students on a journal article about autism to benefit group learning.
-  \item Participated in group meetings.
-   \end{bitemize}
-\end{itemize}
-
-\subsection*{OB/GYN Club, Des Moines University}
-\begin{itemize}
-\item \textbf{Member} \yearrange{Fall 2012 -- Spring 2013}
-  \begin{bitemize}
-    \item Participated in a workshop on birth control options and OB/GYN surgical skills. 
-  \end{bitemize}
-\end{itemize}
-
-\subsection*{Gay Straight Alliance, Des Moines University}
-\begin{itemize}
-\item \textbf{Member} \yearrange{Fall 2012 -- Spring 2013}
-  \begin{bitemize} 
- \item Participated in lecture on how to appropriately elicit a non-exclusive sexual history.
- \item Attended an LGBT Health Conference in April 2014 to learn how to improve health care inequities in this population and learn best care practices.
-  \end{bitemize}
-\end{itemize}
-
 
 \section*{Research}
 
@@ -214,31 +143,119 @@
 \begin{itemize}
 \item \textbf{Student Researcher} \yearrange{Summer 2012}
   \begin{bitemize}
-  \item Mentored by Dr. David Strom
+  \item Mentored by Dr.\ David Strom
   \item Analyzed angiogenic proteins expressed in Glioblastoma
     Multiforme utilizing tumor sample collection and analysis
-    techniques. 
+    techniques
   % \item Presented research project to other faculty and students.
   \end{bitemize}
 \end{itemize}
 
-
-\section*{Employment}
-
-\subsection*{Madison County Memorial Hospital, Winterset, IA}
+\section*{Honors and Awards}
 \begin{itemize}
-\item \textbf{Certified Nursing Aide} \yearrange{Summer 2010}
+  \item \textbf{Going the Extra Mile Award} \yearrange{October 2016}
+    \textit{University of Kansas-Wichita}
+    \begin{bitemize}
+      \item Presented to psychiatry resident physicians for exceptionally hard work in
+        program
+      \item Awarded for reinstituting a medical student psychiatry interest group as well 
+        as for assisting in redesigning the emergency psychiatry rotation for residents
+    \end{bitemize}
+  \item \textbf{Edward and Amanda Miller Scholarship} \yearrange{Spring 2012}
+    \textit{Des Moines University}
+    \begin{bitemize}
+      \item Awarded to promising medical students with an interest in pediatrics
+    \end{bitemize}
+  \item \textbf{Dr.\ Herman Vander Meulen Award} \yearrange{Spring 2011}
+    \textit{Central College, Pella, IA}
+    \begin{bitemize}
+      \item Awarded for achievement to a student accepted to medical school
+    \end{bitemize}
+\end{itemize}
+
+\section*{Education-Teaching}
+\subsection*{Medical Student Lectures}
+\begin{itemize}
+  \item \textbf{Lecturer} \yearrange{2015--Present}
   \begin{bitemize}
-    \item Assisted patients with activities of daily living on Medical-Surgical Floor.
+    \item Developed and presented monthly lecture to medical students during their psychiatry rotation on 
+      Major Neurocognitive Disorders
   \end{bitemize}
 \end{itemize}
 
-\subsection*{Care Center Nursing Home, Winterset, IA}
+\section*{Service}
+\subsection*{National Alliance on Mental Illness}
 \begin{itemize}
-\item \textbf{Certified Nursing Aide} \yearrange{Summer 2008}
+  \item \textbf{Volunteer} \yearrange{2017}
   \begin{bitemize}
-    \item Assisted residents with activities of daily living.
+    \item Led ``Ask the Doctor'' support group educating public on mental illness
   \end{bitemize}
 \end{itemize}
+
+\subsection*{Psychiatry Interest Group, University of Kansas-Wichita}
+\begin{itemize}
+  \item \textbf{Resident Coordinator} \yearrange{2016}
+  \begin{bitemize}
+    \item Revived a defunct medical interest group
+    \item Coordinated activities such as lectures 
+      related to psychiatry and psychiatry related movie nights with discussion for medical student education
+  \end{bitemize}
+\end{itemize}
+
+\subsection*{Pediatrics Club, Des Moines University}
+\begin{itemize}
+\item \textbf{President} \yearrange{Fall 2012--Spring 2013}
+  \begin{bitemize}
+  \item Led club meetings and organized volunteering
+  \item Coordinated speakers including topics such as developmental
+    pediatrics, genetics, having a child with special needs, how
+    maternal stress during pregnancy affects infant biology,
+    immunization myths
+  \item Organized a charity event for a emergency youth shelter
+    collecting winter items and toys
+  \end{bitemize}
+\item \textbf{First Year Liaison} \yearrange{Fall 2011--Spring 2012}
+  \begin{bitemize}
+  \item Created a monthly motor skills class to help children ages 0--2 years old with Down's Syndrome
+  \item Assisted senior club members with their responsibilities such as organizing fundraising and volunteer events
+  \end{bitemize}
+\end{itemize}
+
+\subsection*{Admission Office, Des Moines University}
+\begin{itemize}
+\item \textbf{Prospective Student Interviewer} \yearrange{Fall 2012--Spring 2013}
+  \begin{bitemize}
+  \item Interviewed prospective students applying to the osteopathic
+    medicine program
+   \item Helped Admissions staff select medical school applicants based on fit with current student population and potential for success
+  \end{bitemize}
+\end{itemize}
+
+\subsection*{Psychiatry Club, Des Moines University}
+\begin{itemize}
+\item \textbf{Member} \yearrange{Fall 2012--Spring 2013}
+  \begin{bitemize}
+  \item Gave a presentation to fellow students on a journal article about autism to benefit group learning.
+  \item Participated in group meetings
+   \end{bitemize}
+\end{itemize}
+
+\subsection*{Gay Straight Alliance, Des Moines University}
+\begin{itemize}
+\item \textbf{Member} \yearrange{Fall 2012--Spring 2013}
+  \begin{bitemize} 
+ \item Participated in lecture on how to appropriately elicit a non-exclusive sexual history
+ \item Attended an LGBT Health Conference in April 2014 to learn how to improve health care 
+  inequities in this population and learn best care practices
+  \end{bitemize}
+\end{itemize}
+
+
+\section*{Bibliography}
+
+\subsection*{Publications-Journals}
+
+Macaluso M, \textbf{Oliver H}, Sohail Z. Pharmacokinetic drug evaluation of paliperidone in the treatment 
+  of schizoaffective disorder. Expert Opin Drug Metab Toxicol. 2017 Aug;13(8):871--879.
 
 \end{document}
